@@ -1,140 +1,223 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio de Tatuajes</title>
     <!-- Enlace a Bootstrap CSS para estilos prediseñados -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
     <!-- Enlace a Font Awesome para iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <!-- Enlace a la hoja de estilos personalizada -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Enlace a la fuente Miltonian Tattoo desde Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/logo2.jpg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/logo2.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <!-- Marca de la barra de navegación -->
-            <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="img/logo2.jpg" alt="Inkforcashhh" class="navbar-profile">
-                <span class="navbar-text ms-2">Inkforcashhh</span>
-            </a>
-            <!-- Botón de colapso para la barra de navegación en dispositivos móviles -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Contenido colapsable de la barra de navegación -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <!-- Enlaces de navegación -->
-                    <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
-                </ul>
-            </div>
+      <div class="container">
+        <!-- Marca de la barra de navegación -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="img/logo2.jpg" alt="Inkforcashhh" class="navbar-profile" />
+          <span class="navbar-text ms-2">Inkforcashhh</span>
+        </a>
+        <!-- Botón de colapso para la barra de navegación en dispositivos móviles -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Contenido colapsable de la barra de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <!-- Enlaces de navegación -->
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Galería</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Sección Hero -->
     <header class="hero text-white text-center">
-        <h1>Arte en la Piel</h1>
-        <p>Expresa tu identidad con un tatuaje único, 📍Bello / Servicio a Domicilio</p>
+      <h1>Arte en la Piel</h1>
+      <p>
+        Expresa tu identidad con un tatuaje único, 📍Bello / Servicio a
+        Domicilio
+      </p>
     </header>
 
     <!-- Firma del artista -->
     <div class="firma-container">
-        <p class="firma-del-artista"> Artista:David Perez</p>
+      <p class="firma-del-artista">Artista:David Perez</p>
     </div>
 
     <!-- Carrusel de Tatuajes -->
     <section id="carrusel" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Observa mi trabajo</h2>
-            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <!-- Primera imagen del carrusel -->
-                    <div class="carousel-item active">
-                        <img src="/img/carrusel (Mediana).png" class="d-block w-100" alt="Tatuaje 1">
-                    </div>
-                    <!-- Segunda imagen del carrusel -->
-                    <div class="carousel-item">
-                        <img src="/img/Carrusel1 (Mediana).png" class="d-block w-100" alt="Tatuaje 2">
-                    </div>
-                </div>
-                <!-- Botón para ir a la imagen anterior -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <!-- Botón para ir a la siguiente imagen -->
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+      <div class="container">
+        <h2 class="text-center mb-4">Observa mi trabajo</h2>
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Primera imagen del carrusel -->
+            <div class="carousel-item active">
+              <img
+                src="/img/carrusel (Mediana).png"
+                class="d-block w-100"
+                alt="Tatuaje 1"
+              />
             </div>
+            <!-- Segunda imagen del carrusel -->
+            <div class="carousel-item">
+              <img
+                src="/img/Carrusel1 (Mediana).png"
+                class="d-block w-100"
+                alt="Tatuaje 2"
+              />
+            </div>
+          </div>
+          <!-- Botón para ir a la imagen anterior -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <!-- Botón para ir a la siguiente imagen -->
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+      </div>
     </section>
 
     <!-- Galería de Tatuajes -->
     <section id="galeria" class="gallery py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Galería de Tatuajes</h2>
-            <div class="row">
-                <!-- Imagen de tatuaje 1 -->
-                <div class="col-md-4 mb-4">
-                    <img src="/img/galeria1.png" alt="Tatuaje 1" class="img-fluid rounded">
-                </div>
-                <!-- Imagen de tatuaje 2 -->
-                <div class="col-md-4 mb-4">
-                    <img src="/img/galeria2.png" alt="Tatuaje 2" class="img-fluid rounded">
-                </div>
-                <!-- Imagen de tatuaje 3 -->
-                <div class="col-md-4 mb-4">
-                    <img src="/img/galeria3.png" alt="Tatuaje 3" class="img-fluid rounded" style="width: 100%;">
-                </div>
-                <!-- Imagen de tatuaje 4 -->
-                <div class="col-md-4 mb-4">
-                    <img src="/img/galeria4.png" alt="Tatuaje 4" class="img-fluid rounded" style="width: 100%;">
-                </div>
-                <!-- Imagen de tatuaje 5 -->
-                <div class="col-md-4 mb-4">
-                    <img src="/img/galeria5.png" alt="Tatuaje 5" class="img-fluid rounded" style="width: 100%;">
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="text-center mb-4">Galería de Tatuajes</h2>
+        <div class="row">
+          <!-- Imagen de tatuaje 1 -->
+          <div class="col-md-4 mb-4">
+            <img
+              src="/img/galeria1.png"
+              alt="Tatuaje 1"
+              class="img-fluid rounded"
+            />
+          </div>
+          <!-- Imagen de tatuaje 2 -->
+          <div class="col-md-4 mb-4">
+            <img
+              src="/img/galeria2.png"
+              alt="Tatuaje 2"
+              class="img-fluid rounded"
+            />
+          </div>
+          <!-- Imagen de tatuaje 3 -->
+          <div class="col-md-4 mb-4">
+            <img
+              src="/img/galeria3.png"
+              alt="Tatuaje 3"
+              class="img-fluid rounded"
+              style="width: 100%"
+            />
+          </div>
+          <!-- Imagen de tatuaje 4 -->
+          <div class="col-md-4 mb-4">
+            <img
+              src="/img/galeria4.png"
+              alt="Tatuaje 4"
+              class="img-fluid rounded"
+              style="width: 100%"
+            />
+          </div>
+          <!-- Imagen de tatuaje 5 -->
+          <div class="col-md-4 mb-4">
+            <img
+              src="/img/galeria5.png"
+              alt="Tatuaje 5"
+              class="img-fluid rounded"
+              style="width: 100%"
+            />
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Botón flotante de WhatsApp -->
     <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
-        <i class="fab fa-whatsapp whatsapp-icon"></i>
+      <i class="fab fa-whatsapp whatsapp-icon"></i>
     </a>
 
     <!-- Botón flotante de Instagram -->
-    <a href="https://www.instagram.com/tu_usuario" class="instagram-float" target="_blank">
-        <i class="fab fa-instagram instagram-icon"></i>
+    <a
+      href="https://www.instagram.com/tu_usuario"
+      class="instagram-float"
+      target="_blank"
+    >
+      <i class="fab fa-instagram instagram-icon"></i>
     </a>
 
- 
-   <!-- Footer -->
-   <footer class="bg-dark text-white text-center py-4">
-    <div class="container">
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
         <!-- Información de derechos de autor -->
-        <p>&copy; 2025 Todos los derechos reservados y disñadas por Sebastian Urrego</p>
+        <p>
+          &copy; 2025 Todos los derechos reservados y disñadas por Sebastian
+          Urrego
+        </p>
         <!-- Enlaces a redes sociales -->
         <div class="social-icons">
-            <a href="https://www.facebook.com/caballerourrego" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.tiktok.com/@caballero_urrego?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fab fa-tiktok"></i></a>
-            <a href="https://www.instagram.com/caballero_urrego?igsh=MW1iN2VlYm90aHVjZg==" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/sebastian-urrego-cardenas-5a205a1a5/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.facebook.com/caballerourrego" target="_blank"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://www.tiktok.com/@caballero_urrego?is_from_webapp=1&sender_device=pc"
+            target="_blank"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/caballero_urrego?igsh=MW1iN2VlYm90aHVjZg=="
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/sebastian-urrego-cardenas-5a205a1a5/"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
         </div>
-    </div>
-</footer>
+      </div>
+    </footer>
 
     <!-- Enlace a Bootstrap JS para funcionalidades interactivas -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
