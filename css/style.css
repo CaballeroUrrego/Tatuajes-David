@@ -1,0 +1,147 @@
+/* Estilos generales del cuerpo */
+body {
+    background-color: #001640; /* Fondo oscuro para resaltar el contenido */
+    color: white; /* Texto en blanco para buen contraste */
+    font-family: 'Arial', sans-serif; /* Fuente legible y estándar */
+    margin: 0; /* Eliminar márgenes predeterminados */
+    padding: 0; /* Eliminar relleno predeterminado */
+    line-height: 1.6; /* Mejorar la legibilidad del texto */
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #222; /* Fondo ligeramente más claro que el cuerpo */
+    padding: 1rem; /* Añadir relleno para mayor espacio */
+}
+
+/* Estilos de la sección Hero */
+.hero {
+    text-align: center; /* Centrar el texto */
+    padding: 100px 20px; /* Espaciado interno para mayor impacto visual */
+    background: url('https://source.unsplash.com/1600x900/?tattoo') no-repeat center center; /* Imagen de fondo centrada */
+    background-size: cover; /* Cubrir todo el área de la sección */
+    color: white; /* Texto en blanco para contraste */
+}
+
+.hero h1 {
+    font-size: 3rem; /* Tamaño grande para el título principal */
+    font-weight: bold; /* Negrita para destacar */
+    margin-bottom: 20px; /* Espacio inferior para separación */
+}
+
+.hero p {
+    font-size: 1.2rem; /* Tamaño moderado para el párrafo */
+    margin-bottom: 20px; /* Espacio inferior para separación */
+}
+
+/* Estilos de la galería */
+.gallery {
+    padding: 50px 0; /* Espaciado interno para separación de secciones */
+    text-align: center; /* Centrar el contenido */
+}
+
+.gallery h2 {
+    margin-bottom: 30px; /* Espacio inferior para separación */
+    font-size: 2rem; /* Tamaño grande para el título de la galería */
+    font-weight: bold; /* Negrita para destacar */
+}
+
+/* Mejoras visuales adicionales */
+
+/* Añadir un efecto de sombra a las imágenes de la galería */
+.gallery img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil alrededor de las imágenes */
+    transition: transform 0.3s; /* Transición suave para el efecto hover */
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+}
+
+/* Efecto hover para las imágenes de la galería */
+.gallery img:hover {
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño al pasar el ratón */
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.navbar-nav .nav-link {
+    color: white; /* Texto en blanco */
+    transition: color 0.3s; /* Transición suave para el efecto hover */
+    padding: 0.5rem 1rem; /* Añadir relleno para mayor espacio */
+}
+
+/* Efecto hover para los enlaces de la barra de navegación */
+.navbar-nav .nav-link:hover {
+    color: #f0a500; /* Cambiar a un color dorado al pasar el ratón */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #222; /* Fondo ligeramente más claro que el cuerpo */
+    padding: 20px 0; /* Espaciado interno para mayor separación */
+}
+
+footer p {
+    margin: 0; /* Eliminar márgenes predeterminados */
+    font-size: 1rem; /* Tamaño de fuente moderado */
+}
+
+footer a {
+    color: white; /* Texto en blanco */
+    margin: 0 10px; /* Espaciado entre enlaces */
+    transition: color 0.3s; /* Transición suave para el efecto hover */
+}
+
+footer a:hover {
+    color: #f0a500; /* Cambiar a un color dorado al pasar el ratón */
+}
+
+/* Estilos para el botón flotante de WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
+
+/* Estilos para el botón flotante de Instagram */
+.instagram-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 110px; /* Ajustar para que no se superponga con el botón de WhatsApp */
+    right: 40px;
+    background-color: #E4405F;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.instagram-icon {
+    margin-top: 16px;
+}
+
+.navbar-profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; /* Hacer la imagen ovalada */
+    object-fit: cover; /* Asegurarse de que la imagen se ajuste bien dentro del contenedor */
+    vertical-align: middle;
+}
+
+.navbar-text {
+    font-size: 1.25rem; /* Tamaño de fuente ajustable */
+    font-weight: bold;  /* Negrita para el texto */
+    color: #fff;        /* Color del texto */
+}
