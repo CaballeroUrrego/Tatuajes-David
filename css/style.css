@@ -34,6 +34,22 @@ body {
     margin-bottom: 20px; /* Espacio inferior para separación */
 }
 
+/* Contenedor para centrar la firma del artista */
+.firma-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Altura completa de la ventana */
+}
+
+/* Estilos para la firma del artista */
+.firma-del-artista {
+    font-family: 'Miltonian Tattoo', serif; /* Aplicar la fuente Miltonian Tattoo */
+    font-size: 2rem; /* Tamaño de fuente grande para parecer una firma */
+    text-align: center; /* Centrar el texto */
+    color: #fff; /* Color del texto en blanco */
+}
+
 /* Estilos de la galería */
 .gallery {
     padding: 50px 0; /* Espaciado interno para separación de secciones */
@@ -53,6 +69,9 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil alrededor de las imágenes */
     transition: transform 0.3s; /* Transición suave para el efecto hover */
     border-radius: 10px; /* Bordes redondeados para las imágenes */
+    width: 100%; /* Asegurar que todas las imágenes tengan el mismo ancho */
+    height: 300px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Asegurar que la imagen se ajuste bien dentro del contenedor */
 }
 
 /* Efecto hover para las imágenes de la galería */
@@ -89,9 +108,7 @@ footer a {
     transition: color 0.3s; /* Transición suave para el efecto hover */
 }
 
-footer a:hover {
-    color: #f0a500; /* Cambiar a un color dorado al pasar el ratón */
-}
+
 
 /* Estilos para el botón flotante de WhatsApp */
 .whatsapp-float {
