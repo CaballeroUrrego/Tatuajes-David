@@ -2,7 +2,7 @@
 body {
     background-color: #001640; /* Fondo oscuro para resaltar el contenido */
     color: white; /* Texto en blanco para buen contraste */
-    font-family: 'Arial', sans-serif; /* Fuente legible y estándar */
+    font-family: 'Miltonian Tattoo', serif; /* Aplicar la fuente Miltonian Tattoo a todo el cuerpo */
     margin: 0; /* Eliminar márgenes predeterminados */
     padding: 0; /* Eliminar relleno predeterminado */
     line-height: 1.6; /* Mejorar la legibilidad del texto */
@@ -128,10 +128,12 @@ footer a:hover {
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
+
 .instagram-icon {
     margin-top: 16px;
 }
 
+/* Estilos para la imagen de perfil en la barra de navegación */
 .navbar-profile {
     height: 40px;
     width: 40px;
@@ -140,8 +142,22 @@ footer a:hover {
     vertical-align: middle;
 }
 
+/* Estilos para el texto en la barra de navegación */
 .navbar-text {
     font-size: 1.25rem; /* Tamaño de fuente ajustable */
     font-weight: bold;  /* Negrita para el texto */
     color: #fff;        /* Color del texto */
+    font-family: "Miltonian Tattoo", serif; /* Aplicar la fuente Miltonian Tattoo */
+}
+
+/* Estilos para el botón de la página de inicio */
+.miltonian-tattoo-regular {
+    font-family: "Miltonian Tattoo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Aplicar la fuente a otros elementos si es necesario */
+.hero h1 {
+    font-family: "Miltonian Tattoo", serif;
 }
