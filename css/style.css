@@ -1,7 +1,7 @@
 /* Estilos generales del cuerpo */
 body {
-  background-color: #001640; /* Fondo oscuro para resaltar el contenido */
-  color: white; /* Texto en blanco para buen contraste */
+  background-color: #e8f5ff; /* Fondo oscuro para resaltar el contenido */
+  color: black; /* Texto en negro para buen contraste */
   font-family: "Miltonian Tattoo", serif; /* Aplicar la fuente Miltonian Tattoo a todo el cuerpo */
   margin: 0; /* Eliminar márgenes predeterminados */
   padding: 0; /* Eliminar relleno predeterminado */
@@ -10,7 +10,7 @@ body {
 
 /* Estilos de la barra de navegación */
 .navbar {
-  background-color: #222; /* Fondo ligeramente más claro que el cuerpo */
+  background-color: #03083B; /* Fondo ligeramente más claro que el cuerpo */
   padding: 1rem; /* Añadir relleno para mayor espacio */
 }
 
@@ -18,10 +18,9 @@ body {
 .hero {
   text-align: center; /* Centrar el texto */
   padding: 100px 20px; /* Espaciado interno para mayor impacto visual */
-  background: url("https://source.unsplash.com/1600x900/?tattoo") no-repeat
-    center center; /* Imagen de fondo centrada */
+  background: url("https://source.unsplash.com/1600x900/?tattoo") no-repeat center center; /* Imagen de fondo centrada */
   background-size: cover; /* Cubrir todo el área de la sección */
-  color: white; /* Texto en blanco para contraste */
+  color: black; /* Texto en negro para contraste */
 }
 
 .hero h1 {
@@ -48,7 +47,7 @@ body {
   font-family: "Miltonian Tattoo", serif; /* Aplicar la fuente Miltonian Tattoo */
   font-size: 2rem; /* Tamaño de fuente grande para parecer una firma */
   text-align: center; /* Centrar el texto */
-  color: #fff; /* Color del texto en blanco */
+  color: black; /* Color del texto en negro */
 }
 
 /* Estilos de la galería */
@@ -61,6 +60,7 @@ body {
   margin-bottom: 30px; /* Espacio inferior para separación */
   font-size: 2rem; /* Tamaño grande para el título de la galería */
   font-weight: bold; /* Negrita para destacar */
+  color: black; /* Color del texto en negro */
 }
 
 /* Mejoras visuales adicionales */
@@ -94,17 +94,18 @@ body {
 
 /* Estilos del pie de página */
 footer {
-  background-color: #222; /* Fondo ligeramente más claro que el cuerpo */
+  background-color: #001640; /* Fondo ligeramente más claro que el cuerpo */
   padding: 20px 0; /* Espaciado interno para mayor separación */
 }
 
 footer p {
   margin: 0; /* Eliminar márgenes predeterminados */
   font-size: 1rem; /* Tamaño de fuente moderado */
+  color: white; /* Color del texto en negro */
 }
 
 footer a {
-  color: white; /* Texto en blanco */
+  color: white; /* Texto en negro */
   margin: 0 10px; /* Espaciado entre enlaces */
   transition: color 0.3s; /* Transición suave para el efecto hover */
 }
@@ -176,4 +177,26 @@ footer a {
 /* Aplicar la fuente a otros elementos si es necesario */
 .hero h1 {
   font-family: "Miltonian Tattoo", serif;
+}
+
+/* Estilos de la sección Hero */
+.hero {
+  text-align: center; /* Centrar el texto */
+  padding: 100px 20px; /* Espaciado interno para mayor impacto visual */
+  background: url("https://source.unsplash.com/1600x900/?tattoo") no-repeat center center; /* Imagen de fondo centrada */
+  background-size: cover; /* Cubrir todo el área de la sección */
+  color: black; /* Texto en negro para contraste */
+}
+
+.hero h1 {
+  font-size: 3rem; /* Tamaño grande para el título principal */
+  font-weight: bold; /* Negrita para destacar */
+  margin-bottom: 20px; /* Espacio inferior para separación */
+  color: black; /* Texto en negro */
+}
+
+.hero p {
+  font-size: 1.2rem; /* Tamaño moderado para el párrafo */
+  margin-bottom: 20px; /* Espacio inferior para separación */
+  color: black; /* Texto en negro */
 }
